@@ -1,168 +1,30 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>气象业务管理系统</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
-        .container {
-            width: 80%;
-            margin: auto;
-            overflow: hidden;
-        }
-        header {
-            background: #333;
-            color: #fff;
-            padding: 10px 0;
-            text-align: center;
-        }
-        nav {
-            display: flex;
-            justify-content: space-around;
-            background: #444;
-            color: #fff;
-            padding: 10px 0;
-        }
-        nav a {
-            color: #fff;
-            text-decoration: none;
-            padding: 5px 20px;
-        }
-        nav a:hover {
-            background: #555;
-        }
-        section {
-            margin: 20px 0;
-            background: #fff;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        h2 {
-            text-align: center;
-        }
-        ul {
-            list-style: none;
-            padding: 0;
-        }
-        li {
-            padding: 10px;
-            background: #eee;
-            margin-bottom: 10px;
-            border-radius: 5px;
-        }
-        .category {
-            background: #ddd;
-            padding: 10px;
-            border-radius: 5px;
-            margin-bottom: 20px;
-        }
-        .reminder, .audit, .regulation {
-            margin-bottom: 20px;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>气象业务管理系统</h1>
-    </header>
-    <nav>
-        <a href="#category-management">业务分类与管理</a>
-        <a href="#reminders">业务需求提醒功能</a>
-        <a href="#audit-management">内审检查内容管理</a>
-        <a href="#regulations">台站规章制度与应急预案</a>
-    </nav>
     <div class="container">
-        <section id="category-management">
-            <h2>业务分类与管理</h2>
-            <div class="category">
-                <h3>探空</h3>
-                <ul>
-                    <li><a href="tangkong_yewu_guifan.pdf" target="_blank">探空业务规范</a></li>
-                    <li><a href="tangkong_yewu_shouce.pdf" target="_blank">探空业务手册</a></li>
-                </ul>
-            </div>
-            <div class="category">
-                <h3>预报</h3>
-                <ul>
-                    <li><a href="yubao_yewu_guifan.pdf" target="_blank">预报业务规范</a></li>
-                    <li><a href="yubao_yewu_shouce.pdf" target="_blank">预报业务手册</a></li>
-                </ul>
-            </div>
-            <div class="category">
-                <h3>观测</h3>
-                <ul>
-                    <li><a href="guance_yewu_guifan.pdf" target="_blank">观测业务规范</a></li>
-                    <li><a href="guance_yewu_shouce.pdf" target="_blank">观测业务手册</a></li>
-                </ul>
-            </div>
-        </section>
-        <section id="reminders">
-            <h2>业务需求提醒功能</h2>
-            <div class="reminder">
-                <h3>探空</h3>
-                <ul>
-                    <li>每月第一周完成探空设备校准</li>
-                    <li>每月第三周提交探空报告</li>
-                </ul>
-            </div>
-            <div class="reminder">
-                <h3>预报</h3>
-                <ul>
-                    <li>每周一发布天气预报</li>
-                    <li>每月提交预报评估报告</li>
-                </ul>
-            </div>
-            <div class="reminder">
-                <h3>观测</h3>
-                <ul>
-                    <li>每天记录观测数据</li>
-                    <li>每月进行观测设备维护</li>
-                </ul>
-            </div>
-        </section>
-        <section id="audit-management">
-            <h2>内审检查内容管理</h2>
-            <div class="audit">
-                <h3>探空</h3>
-                <ul>
-                    <li><a href="tangkong_yewu_jiancha.pdf" target="_blank">探空业务检查表</a></li>
-                </ul>
-            </div>
-            <div class="audit">
-                <h3>预报</h3>
-                <ul>
-                    <li><a href="yubao_yewu_jiancha.pdf" target="_blank">预报业务检查表</a></li>
-                </ul>
-            </div>
-            <div class="audit">
-                <h3>观测</h3>
-                <ul>
-                    <li><a href="guance_yewu_jiancha.pdf" target="_blank">观测业务检查表</a></li>
-                </ul>
-            </div>
-        </section>
-        <section id="regulations">
-            <h2>台站规章制度与应急预案</h2>
-            <div class="regulation">
-                <h3>规章制度</h3>
-                <ul>
-                    <li><a href="taizhan_tankong_guifan.pdf" target="_blank">台站探空规章制度</a></li>
-                </ul>
-            </div>
-            <div class="regulation">
-                <h3>应急预案</h3>
-                <ul>
-                    <li><a href="taizhan_yingji_yuan.pdf" target="_blank">台站探空应急预案</a></li>
-                </ul>
-            </div>
-        </section>
+        <h1>气象业务管理系统</h1>
+
+        <h2>业务分类与管理</h2>
+        <ul>
+            <li><a href="tangkong_yewu_shouce.pdf" target="_blank">探空业务规范</a></li>
+            <li><a href="yubao_yewu_shouce.pdf" target="_blank">预报业务规范</a></li>
+            <li><a href="guance_yewu_shouce.pdf" target="_blank">观测业务规范</a></li>
+        </ul>
+
+        <h2>业务需求提醒功能</h2>
+        <p>设置提醒功能，针对每个业务类别列出每月必做的内容。</p>
+
+        <h2>内审检查内容管理</h2>
+        <p>管理每个业务类别的内审检查内容清单。</p>
+
+        <h2>台站规章制度与应急预案</h2>
+        <p>提供台站探空规章制度和应急预案的在线访问或下载功能。</p>
     </div>
 </body>
 </html>
