@@ -6,7 +6,7 @@ body {
     color: #333;
     background-image: url('https://www.transparenttextures.com/patterns/arches.png');
     background-size: cover;
-    font-size: 22px; /* 字体大小 */
+    font-size: 30px; /* 字体大小增加到 30px */
     line-height: 1.8; /* 行高 */
 }
 
@@ -21,12 +21,12 @@ header {
 }
 
 .logo {
-    height: 60px;
+    height: 80px; /* 调整图标大小 */
     margin-right: 20px;
 }
 
 h1 {
-    font-size: 3em; /* 调整字体大小 */
+    font-size: 4em; /* 调整字体大小 */
     margin: 0;
 }
 
@@ -46,7 +46,7 @@ h2 {
     border-bottom: 2px solid #00796b;
     padding-bottom: 10px;
     margin-top: 20px;
-    font-size: 2.2em; /* 调整字体大小 */
+    font-size: 3em; /* 调整字体大小 */
 }
 
 /* 列表样式 */
@@ -56,7 +56,7 @@ ul {
 }
 
 ul li {
-    margin: 15px 0;
+    margin: 20px 0;
 }
 
 /* 链接按钮样式 */
@@ -65,10 +65,10 @@ ul li {
     text-decoration: none;
     color: white;
     background-color: #00796b;
-    padding: 15px 25px; /* 调整按钮内边距 */
+    padding: 20px 30px; /* 调整按钮内边距 */
     border-radius: 5px;
     transition: background-color 0.3s ease, transform 0.3s ease;
-    font-size: 1.4em; /* 调整字体大小 */
+    font-size: 1.6em; /* 调整字体大小 */
     font-weight: 500;
 }
 
@@ -84,8 +84,8 @@ ul li {
 /* 文本样式 */
 p {
     line-height: 1.8; /* 调整行高 */
-    font-size: 1.4em; /* 调整字体大小 */
-    margin: 10px 0;
+    font-size: 1.6em; /* 调整字体大小 */
+    margin: 15px 0;
 }
 
 /* 页脚样式 */
@@ -93,8 +93,9 @@ footer {
     background-color: #00796b;
     color: white;
     text-align: center;
-    padding: 10px;
+    padding: 20px; /* 调整内边距 */
     position: fixed;
     width: 100%;
     bottom: 0;
+    font-size: 1.4em; /* 调整字体大小 */
 }
