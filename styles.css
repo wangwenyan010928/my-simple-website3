@@ -6,6 +6,8 @@ body {
     color: #333;
     background-image: url('https://www.transparenttextures.com/patterns/arches.png');
     background-size: cover;
+    font-size: 18px;
+    line-height: 1.6;
 }
 
 /* 头部样式 */
